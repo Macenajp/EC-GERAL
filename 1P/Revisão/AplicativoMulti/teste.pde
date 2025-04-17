@@ -1,3 +1,5 @@
+// Feito em 10 minutos sem conhecer a linguagem.
+
 int xp1 = 160, yp1 = 320;
 int xp2 = 287, yp2 = 320;
 int raio = 45;
