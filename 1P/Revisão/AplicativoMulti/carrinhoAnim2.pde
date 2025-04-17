@@ -1,4 +1,4 @@
-// Projeto adaptado e feito em cima de um extremamente básico e em pouco tempo sem conhecer a linguagem.
+// Projeto adaptado e feito em cima de um extremamente básico em pouco tempo, e sem conhecer a linguagem.
 // Agora triplicado e com animação básica
 
 int raio = 45;
