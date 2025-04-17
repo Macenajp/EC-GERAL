@@ -1,3 +1,6 @@
+// Projeto adaptado e feito em cima de um extremamente básico em pouco tempo, e sem conhecer a linguagem.
+// Agora triplicado e com animação básica
+
 float angulo = 0;
 
 void setup() {
