@@ -41,10 +41,6 @@ background(255);
   text("Login", width/2 - 65, 280);
   text("Registrar-se", width/2 + 65, 280);
   
-  
-  
-  
-  
   if (mousePressed) {
     if ((mouseX > 565) && (mouseX < 665) && (mouseY > 260) && (mouseY < 300)) telaAtual = 1;
   }
