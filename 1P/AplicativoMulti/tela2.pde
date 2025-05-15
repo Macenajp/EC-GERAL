@@ -1,5 +1,4 @@
 void tela2() {
-  
   fill(255);     
   rect(-1, 0, width + 1400, height + 800);
   fill(100, 150, 70); textSize(28);
@@ -21,17 +20,12 @@ void tela2() {
   stroke(180);
   line(10, height - 55, 170, height - 55);
   
-  
   // Fundo da tela 2
   noStroke();
   fill(255);  // Verde
   rect(776, 400, height+400, height-1);
   fill(0); text("Video", 350, 50);
   
- 
-  
-
- 
    if (mousePressed) {
     if ((mouseX > 10) && (mouseX < 190) && (mouseY > 125) && (mouseY < 155)) telaAtual = 1;
     if ((mouseX > 55) && (mouseX < 110) && (mouseY > 165) && (mouseY < 190)) telaAtual = 2;
