@@ -1,5 +1,4 @@
 void tela1() {
-  
 
  //titulo
   // Fundo da tela 1
@@ -38,11 +37,6 @@ void tela1() {
   rect(975, 450, 600, 200, 20);
   fill(80); noStroke(); text("Recomendações", 710, 330);
 
-
-
-
-
-
   // Interações válidas na tela 1
   if (mousePressed) {
     if ((mouseX > 10) && (mouseX < 190) && (mouseY > 125) && (mouseY < 155)) telaAtual = 1;
@@ -54,9 +48,7 @@ void tela1() {
 }
 }
 
-
 void mousePressed() { 
-  
     corVerdeMenu = false;
     corVerdeVideos = false;
     corVerdeLivros = false;
