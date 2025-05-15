@@ -1,5 +1,4 @@
 void tela3() {
-  
   fill(255);     
   rect(-1, 0, width + 1400, height + 800);
   fill(100, 150, 70); textSize(28);
@@ -11,7 +10,7 @@ void tela3() {
   fill(255); textAlign(LEFT, CENTER); textSize(16);
   text("Menu Principal", 50, 140);
   
-   fill(100); textSize(14);
+  fill(100); textSize(14);
   text("Vídeos", 55, 180);
   text("Livros", 55, 220);
   text("Histórias", 55, 260);
@@ -27,10 +26,6 @@ void tela3() {
   rect(776, 400, height+400, height-1);
   fill(0); text("Livros", 350, 50);
   
-  
-  
-  
-
   // Interações válidas na tela 1, 3 e 4
   if (mousePressed) {
     if ((mouseX > 10) && (mouseX < 190) && (mouseY > 125) && (mouseY < 155)) telaAtual = 1;
