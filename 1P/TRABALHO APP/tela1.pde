@@ -1,5 +1,5 @@
 void tela1() {
-  
+
  //titulo
   // Fundo da tela 1
   fill(255);     
