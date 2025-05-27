@@ -1,7 +1,7 @@
 void tela0(){
 background(255);
-  
-  // Título
+
+// Título
   fill(117, 165, 104);
   textSize(48);
   text("EXÍMIO", width/2, 80);
