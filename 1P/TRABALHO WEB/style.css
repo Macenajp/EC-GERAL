@@ -1,0 +1,19 @@
+body {
+    background-color: #071e26;  
+}
+
+h1{
+    color:white;
+}
+
+.genericContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    background-color: #134b5f;
+    padding: 25px;
+}
